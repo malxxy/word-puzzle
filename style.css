@@ -1,0 +1,66 @@
+:root {
+    --plum: #290238;
+    --royal: #421155;
+    --purple: #5D2971;
+    --light: #7A4A8D;
+    --lightest: #9A73A9;
+    --text: #F4E3FB;
+}
+
+/* Universal */
+* {
+    background-color: var(--lightest);
+    margin: 2px;
+    padding: 2px;
+}
+
+/* Element */
+header {
+    background-color: var(--plum);
+    position: relative;
+}
+
+h1 {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: var(--purple);
+    color: var(--text);
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    color:var(--text);
+    background-color: var(--royal);
+    text-align: center;
+}
+
+/* Class */
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: space-evenly;
+}
+.word-area {
+    width: 500px;
+    height: 400px;
+    background-color: var(--light);
+    border: 5px solid var(--royal);
+}
+
+.tracker-area {
+    min-width: 200px;
+    height: 400px;
+    background-color: var(--light);
+    border: 5px solid var(--royal);
+}
+
+/* ID */
+#start {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--text);
+    color: var(--plum);
+    padding: 5px 10px;
+}
