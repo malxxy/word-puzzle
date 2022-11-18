@@ -1,5 +1,5 @@
 # word-puzzle
-Mini project 4 - UCB
+Mini project 04 - UCB
 
 ## description
 Guess the word game
